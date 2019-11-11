@@ -16,9 +16,17 @@ class Rocket implements SpaceShip {
     }
 
     @Override
+    public String toString() {
+        return "Rocket info: cost: " + costInMillions +
+                " weight: " + weight +
+                " max weight with cargo: " + maxWeightWithCargo +
+                " cargo loaded: " + cargoLoaded;
+    }
+
+    @Override
     public boolean launch(SpaceShip spaceShip) {
         double random = (int) (Math.random() * 100 * launchExplosionChance);
-        System.out.println("Random in launch: " + random); //TODO delete
+        //System.out.println("Random in launch: " + random); //TODO delete
         return random > 0;
     }
 
