@@ -1,0 +1,17 @@
+/.idea/$PRODUCT_WORKSPACE_FILE$
+/.idea/.gitignore
+/.idea/compiler.xml
+/.idea/dictionaries
+/.idea/google-java-format.xml
+/target/classes/Item.class
+/target/classes/Main.class
+/.idea/misc.xml
+/pom.xml
+/.idea/copyright/profiles_settings.xml
+/target/classes/Rocket.class
+/target/classes/Simulation.class
+/target/classes/SpaceShip.class
+/target/classes/U1.class
+/target/classes/U2.class
+/UDACITYSpaceChallenge.iml
+/.idea/vcs.xml
